@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&display=swap');
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: dosis, sans-serif;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 1em;
+}
+
+header {
+    background-color: #ddff9e;
+}
+
+.wrap {
+    max-width: 64em;
+    min-height: 32em;
+    background-color: #fffaad;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top: 0px
+}
+
+article {
+    padding: .5em;
+}
+
+nav {
+    background-color: #caeb8f;
+}
+
+nav td {
+    border: 2px solid black;
+    padding: 0.5em;
+    margin: 0
+}
+
+nav table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
